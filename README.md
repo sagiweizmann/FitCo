@@ -30,54 +30,37 @@ Follow the steps below to set up and run the Workout Tracker App on your local m
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/workout-tracker-app.git
-
-css
-Copy code
+```
+git clone https://github.com/sagiweizmann/Workout-Tracker
+```
 
 2. Change to the project directory:
-
+```
 cd workout-tracker-app
-
-markdown
-Copy code
-
+```
 3. Install the dependencies for the server:
-
+```
 npm install
+```
+4. Change to the `frontend` directory:
+```
+cd frontend
+```
 
-markdown
-Copy code
-
-4. Change to the `client` directory:
-
-cd client
-
-markdown
-Copy code
-
-5. Install the dependencies for the client:
-
+5. Install the dependencies for the frontend:
+```
 npm install
-
-css
-Copy code
-
+```
 6. Go back to the project directory:
-
+```
 cd ..
-
-markdown
-Copy code
-
+```
 7. Rename the `.env.example` file to `.env` and provide the necessary environment variables, such as MongoDB connection URI and JWT secret.
 
 8. Run the application:
-
+```
 npm run dev
-
-markdown
-Copy code
+```
 
 This will start the server and the React development server concurrently.
 
