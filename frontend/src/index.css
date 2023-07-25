@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #e20d0d;
   --error: #e7195a;
 }
 body {
@@ -118,6 +118,7 @@ nav button {
   font-family: "Poppins";
   cursor: pointer;
   font-size: 1em;
+  margin-left: 10px;
 }
 
 /* auth forms */
