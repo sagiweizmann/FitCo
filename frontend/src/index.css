@@ -129,3 +129,12 @@ form.signup, form.login {
   background: #fff;
   border-radius: 4px;
 }
+
+.logo {
+  height: 100px;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
