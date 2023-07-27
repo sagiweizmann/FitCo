@@ -11,7 +11,7 @@ const WorkoutDetails = ({ workout }) => {
         // if (!user) return because the user is not logged in
         if (!user) return
 
-        const response = await fetch(`/api/workouts/${workout._id}` , {
+        const response = await fetch(`https://fitco-oblz.onrender.com/api/workouts/${workout._id}` , {
             method: 'DELETE',
             headers : {
                 'Authorization': `Bearer ${user.token}`
