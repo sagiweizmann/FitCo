@@ -1,7 +1,12 @@
-# Workout Tracker App
+# Workout Tracker App - FitCo
 
 This is a simple workout tracker application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to track their workouts and exercises, set goals, and monitor their progress.
 
+![FitCo App Example](FitCo.gif)
+
+[Working Production of The App](https://fitco-386i.onrender.com/)
+
+ 
 ## Features
 
 - User registration and authentication
